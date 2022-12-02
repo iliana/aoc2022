@@ -2,6 +2,7 @@ use std::collections::BinaryHeap;
 use std::str::FromStr;
 
 const INPUT: &str = include_str!("day1.txt");
+#[cfg(test)]
 const TEST_INPUT: &str = "\
 1000
 2000
